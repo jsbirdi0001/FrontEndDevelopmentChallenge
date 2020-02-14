@@ -39,7 +39,7 @@ Create a visually appealing single web page using the source content provided in
 
 ### Submissions
 
-* Clone this repository and link us your complicated repo on either BitBucket or GitHub
+* Clone this repository and link us your completed repo on either BitBucket or GitHub
 
 
 ### Finally

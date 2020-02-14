@@ -1,29 +1,31 @@
-# README #
+# Front End Developer Challenge 2020 #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Welcome to the Wise Publishing Front End Developer Challenge!
 
-### What is this repository for? ###
+### Your Goal
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+Create a visually appealing single web page using the source content provided in the assets folder. 
 
-### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+### Requirements ###
 
-### Contribution guidelines ###
+* Use [Webpack](https://webpack.js.org/)
+* Have working, clean and efficient CSS provided via SASS
+* Must *not* use a third party frameworks for either JavaScript or CSS
+* No frames or iframes
 
-* Writing tests
-* Code review
-* Other guidelines
+### Acceptance criteria
 
-### Who do I talk to? ###
+* A _single_ working web page with a header container the [logo](assets/img/logo.svg). The header will be fixed in place as the user scrolls. It will be clearly separated from the body content.
+* A two column desktop layout. The left column will be the [article](assets/content/article.html). The right column will contain the [form](assets/content/form.html).
+* The form in the right hand column will always remain in view
+* Mobile breakpoints will drop the right rail form to below the article content
+* The form will validate input and feedback to the user in an intuitive manner
+* Create form submission code to go to a dummy ajax end point
 
-* Repo owner or admin
-* Other community or team contact
+### Assessment
+
+* Demonstrate an understanding of SASS, JavaScript/ES6 syntax
+* Hitting the acceptance criteria (both to the letter and spirit - some points are intentionally vague)
+* Your page must be visually pleasing. The information and calls to action on page should be clear and a pleasure to consume.
+

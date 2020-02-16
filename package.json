@@ -1,0 +1,23 @@
+{
+  "name": "internshipassessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^3.4.2",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.13.1",
+    "path": "^0.12.7",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  },
+  "devDependencies": {
+    "style-loader": "^0.19.1"
+  }
+}

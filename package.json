@@ -4,20 +4,22 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "build": "./node_modules/.bin/webpack -w"
+    "build": "./node_modules/.bin/webpack -w",
+    "start": "./node_modules/.bin/webpack-dev-server"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "css-loader": "^3.4.2",
     "jquery": "^3.4.1",
     "node-sass": "^4.13.1",
     "path": "^0.12.7",
     "sass-loader": "^8.0.2",
-    "webpack": "^4.28.4",
-    "webpack-cli": "^3.2.1"
-  },
-  "devDependencies": {
-    "style-loader": "^0.19.1"
+    "style-loader": "^0.19.1",
+    "url-loader": "^3.0.0",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   }
 }
